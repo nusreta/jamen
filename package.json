@@ -1,0 +1,42 @@
+{
+    "name": "jamen",
+    "version": "1.0.0",
+    "description": "jamen - simple generic scalable rest api implemented using Node.js, Express.js, MongoDB, JWT, Ajv",
+    "main": "api.js",
+    "scripts": {
+        "start": "node api.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nusreta Sinanovic <nusretasinanovic@gmail.com> (nusretasinanovic.info)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nusreta/jamen.git"
+    },
+    "license": "ISC",
+    "keywords": [
+        "jamen",
+        "rest",
+        "api",
+        "nodejs",
+        "expressjs",
+        "mongodb",
+        "jwt", 
+        "generic",
+        "backend",
+        "ajv"
+    ],
+    "dependencies": {
+        "ajv": "^6.5.4",
+        "bcrypt": "3.0.1",
+        "body-parser": "^1.18.3",
+        "dotenv": "^6.1.0",
+        "express": "^4.15.3",
+        "express-jwt": "^5.3.1",
+        "jsonwebtoken": "^8.3.0",
+        "lodash": "^4.17.4",
+        "mongodb": "^3.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.7.0"
+    }
+}
